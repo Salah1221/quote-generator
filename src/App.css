@@ -107,7 +107,7 @@ a {
   text-decoration: none;
   aspect-ratio: 1;
   width: 50px;
-  border-radius: var(--button-radius, 4px);
+  border-radius: 4px;
   transition: background-color 0.3s;
 }
 

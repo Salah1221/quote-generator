@@ -44,6 +44,8 @@ const App = () => {
         <div className="social-links">
           <a
             href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodedQuote}`}
+            target="_blank"
+            rel="noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +59,11 @@ const App = () => {
             </svg>
             <span className="sr-only">LinkedIn</span>
           </a>
-          <a href={`https://t.me/share/url?text=${encodedQuote}`}>
+          <a
+            href={`https://t.me/share/url?text=${encodedQuote}`}
+            target="_blank"
+            rel="noreferrer"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="1.25em"
@@ -87,7 +93,11 @@ const App = () => {
             </svg>
             <span className="sr-only">Twitter</span>
           </a>
-          <a href={`https://api.whatsapp.com/send?text=${encodedQuote}`}>
+          <a
+            href={`https://api.whatsapp.com/send?text=${encodedQuote}`}
+            target="_blank"
+            rel="noreferrer"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="1em"
